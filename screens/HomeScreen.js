@@ -3,7 +3,7 @@ import {View, Image, Text, StyleSheet} from 'react-native';
 import { TouchableOpacity, FlatList } from 'react-native-gesture-handler';
 
 const film = [
-    { name: 'Maleficentt', screen: 'Movie1', imageUrl: require('../assets/maleficent.jpg')},
+    { name: 'Maleficentttttttttt', screen: 'Movie1', imageUrl: require('../assets/maleficent.jpg')},
     { name: 'Frozen 2', trailer: 'Movie2', imageUrl: require('../assets/frozen2.jpg')},
     { name: 'Charlie\'S Angels' , trailer: 'Movie3', imageUrl: require('../assets/frozen2.jpg')}
 ]

@@ -5,7 +5,7 @@ import { TouchableOpacity, FlatList } from 'react-native-gesture-handler';
 const film = [
     { name: 'Maleficent', screen: 'Movie1', imageUrl: require('../assets/maleficent.jpg')},
     { name: 'Frozen 2', trailer: 'Movie2', imageUrl: require('../assets/frozen2.jpg')},
-    { name: 'Charlie\'S Angels' , trailer: 'Movie3', imageUrl: require('../assets/charlieAngels.jpg')}
+    { name: 'Charlie\'S Angels' , trailer: 'Movie3', imageUrl: require('../assets/frozen2.jpg')}
 ]
 
 const HomeScreen = ({navigation}) => {

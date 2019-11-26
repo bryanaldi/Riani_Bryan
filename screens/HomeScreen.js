@@ -1,17 +1,30 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import {View, Image, Text, StyleSheet} from 'react-native';
+import { TouchableOpacity, FlatList } from 'react-native-gesture-handler';
 
+const film = [
+    { name: 'Maleficent', screen: 'Movie1', imageUrl: require('../assets/maleficent.jpg')},
+    { name: 'Frozen 2', trailer: 'Movie2', imageUrl: require('../assets/frozen2.jpg')},
+    { name: 'Charlie\'S Angels' , trailer: 'Movie3', imageUrl: require('../assets/charlieAngels.jpg')}
+]
 
-const HomeScreen = () => {
-    console.log
-
+const HomeScreen = ({navigation}) => {
     return (
-        <View>
-        <Text>Home Screen</Text>
-        <Button> 
-            title = "Go to Component Screen"
-            onPress={()=>{} console.log("Button 1 pressed")}
-            </Button> 
-        </View>
-    )
-}
+        <FlatList
+        data={film}
+        renderItem={({item}) =>
+            <TouchableOpacity>
+                <View>
+                    <Image
+                        style={{width: 200, height: 200}}
+                        source={item.imageUrl}
+                        onPress={()=> navigation.navigate(item.screen)}
+                    />
+                </View>
+            </TouchableOpacity>
+        }
+        />
+        
+    );
+};
+export default HomeScreen;

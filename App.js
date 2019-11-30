@@ -3,14 +3,20 @@ import { StyleSheet, Text, View } from 'react-native';
 import CharlieAngel from './screens/CharlieAngel';
 import Maleficent from './screens/Maleficent';
 import Frozen2 from './screens/Frozen2';
+import FrozenTrailer from './screens/FrozenTrailer';
 import HomeScreen from './screens/HomeScreen';
+import TesScreen from './screens/TesScreen';
+
+
+
 
 import {createStackNavigator, createAppContainer} from 'react-navigation';
 
 const navigator = createStackNavigator({
-  Home: HomeScreen,
+  Home: TesScreen,
   Movie1: Maleficent,
-  Movie2: Frozen2,
+  Frozen2: Frozen2,
+  FrozenTrailer: FrozenTrailer,
   Movie3: CharlieAngel
 },{
   initialRouteName: 'Home',

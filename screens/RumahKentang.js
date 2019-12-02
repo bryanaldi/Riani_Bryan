@@ -24,22 +24,43 @@ export default class ProductDetail extends Component {
       <View style={styles.container}>
         <ScrollView>
           <View style={{alignItems:'center', marginHorizontal:30}}>
-            <Image style={styles.productImg} source={{uri:"https://www.blackfilm.com/read/wp-content/uploads/2019/10/Charlie-s-Angels-cover.jpg"}}/>
-            <Text style={styles.name}>Charlie's Angels</Text>
+            <Image style={styles.productImg} source={{uri:"https://www.biem.co/wp-content/uploads/2019/11/film-rumah-kentang.jpg"}}/>
+            <Text style={styles.name}>Rumah Kentang: The Beginning</Text>
             <Text style={styles.price}>SYNOPSIS</Text>
             <Text style={styles.description}>
-                CHARLIE'S ANGELS merupakan film aksi yang disutradarai oleh Elizabeth Banks. Kristen Stewart, Naomi Scott, dan Ella Balinska bekerja untuk Charles Townsend sebuah badan keamanan dan investigasinya misterius yang telah berkembang dengan skala internasional. Para wanita paling cerdas, paling berani, dan paling terlatih, Menjadi satu team "Angels" yang dipandu oleh Bosley menjalankan suatu misi berat dan berbahaya di mana-mana.
+                RUMAH KENTANG: THE BEGINNING merupakan film horor yang disutradarai oleh Rizal Mantovani. Adrian adalah 
+                seorang penulis novel horor yang buku-bukunya mulai ditinggalkan pembacanya. Untuk menulis novel terbarunya, 
+                ia bersama istrinya, Sophie, memutuskan kembali ke rumah masa kecil Sophie yang sudah lama tidak dikunjungi 
+                Sophie, sejak kedua orang tua Sophie tiba-tiba menghilang tanpa jejak. Kini ditemani Uwa-nya dan ketiga 
+                anaknya; Nina, Nala dan Bayu; Sophie akhirnya menginjakkan kaki kembali di rumah tersebut.
             </Text>
             <Text style={styles.description}>
-                Dibintangi oleh Naomi Scott, Sam Claflin, Kristen Stewart. 
+                Namun sesampainya mereka disana, gangguan demi gangguan segera menyerang mereka. Gangguan yang mereka hiraukan 
+                pada awalnya sampai akhirnya anak tertua mereka, Nina, tiba-tiba juga menghilang tanpa jejak. 
+            </Text>
+            <Text style={styles.description}>
+                Kini demi mendapatkan kembali Nina, Sophie dan Adrian harus mencari tahu apa yang sebenarnya terjadi di rumah 
+                ini, sebuah rumah yang berdiri di perkebunan kentang orang tua Sophie, terlebih ketika Uwa diberitahu oleh 
+                seorang warga desa, Dadang, bahwa rumah itu lebih buruk dari apa yang mereka bayangkan. Bahwa tidak hanya Nina 
+                yang berada dalam bahaya. Tapi mereka semua.
+            </Text>
+
+            <Text style={styles.description}>
+            Dibintangi oleh Luna Maya, Christian Sugiono, dan Jajang C Noer.
             </Text>
           </View>
           
           <View style={styles.separator}></View>
           <View style={styles.addToCarContainer}>
-            <TouchableOpacity style={styles.shareButton} onPress={()=> {Linking.openURL('https://www.youtube.com/watch?v=voYLots_ZOg')}}>
+            <TouchableOpacity style={styles.shareButton} onPress={()=> {Linking.openURL('https://www.youtube.com/watch?v=GlF3cMCh2mk')}}>
               <Text style={styles.shareButtonText}>View Trailer</Text>  
             </TouchableOpacity>
+            <Text style={styles.description}>
+                
+            </Text>
+            <Text style={styles.description}>
+                
+            </Text>
           </View> 
         </ScrollView>
       </View>
@@ -54,7 +75,7 @@ const styles = StyleSheet.create({
   },
   productImg:{
     width:400,
-    height:250,
+    height:230,
   },
   name:{
     fontSize:28,

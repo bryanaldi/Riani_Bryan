@@ -16,19 +16,7 @@ export default class TesScreen extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      data: [
-
-        {id:1, color:"#a10f05", info:'Frozen2', icon:require('../assets/frozen2.jpg'), name: "Frozen 2 ", tags:['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Musical']},
-        {id:2, color:"#a10f05", info:'CharlieAngel', icon:require('../assets/charlieAngels.jpg'), name: "Charlie's Angels", tags:['Action', 'Adventure', 'Comedy']}, 
-        {id:3, color:"#a10f05", info:'Overcomer', icon:require('../assets/overcomer.jpg'), name: "Overcomer", tags:['Drama']}, 
-        {id:4, color:"#a10f05", info:'Jumanji', icon:require('../assets/jumanji.jpg'), name: "Jumanji: The Next Level", tags:['Action', 'Adventure', 'Comedy', 'Fantasy']}, 
-        {id:5, color:"#a10f05", info:'RumahKentang', icon:require('../assets/rumahKentang.jpg'), name: "Rumah Kentang: The Beginning", tags:['Horror']}, 
-        {id:6, color:"#a10f05", info:'TheGoodLiar', icon:require('../assets/theGoodLiar.jpg'), name: "The Good Liar", tags:['Thriller']}, 
-        {id:7, color:"#a10f05", info:'TrinityTraveler', icon:require('../assets/trinityTraveler.jpg'), name: "Trinity Traveler", tags:['Drama']},
-        {id:8, color:"#a10f05", info:'LastChristmas', icon:require('../assets/lastChristmas.jpg'), name: "Last Christmas", tags:['Comedy', 'Drama', 'Romance']},
-
- 
-      ],
+      isLoading: true
     };
   }
 
@@ -165,11 +153,7 @@ const styles = StyleSheet.create({
     padding:10,
     borderRadius:40,
     marginHorizontal:3,
-<<<<<<< HEAD
     backgroundColor: "#dbc0bd",
-=======
-    backgroundColor: "#eee",
->>>>>>> 7a6b392f29617568af3dc494608b1b6d859e53f9
     marginTop:5,
   },
 });   

@@ -24,20 +24,25 @@ export default class ProductDetail extends Component {
       <View style={styles.container}>
         <ScrollView>
           <View style={{alignItems:'center', marginHorizontal:30}}>
-            <Image style={styles.productImg} source={{uri:"https://www.blackfilm.com/read/wp-content/uploads/2019/10/Charlie-s-Angels-cover.jpg"}}/>
-            <Text style={styles.name}>Charlie's Angels</Text>
+            <Image style={styles.productImg} source={{uri:"https://cdn.idntimes.com/content-images/post/20191127/img-20191127-154000-3aa48ac20fcc0bcc1d9a6ff2702b72e9_600x400.jpg"}}/>
+            <Text style={styles.name}>Trinity Traveler</Text>
             <Text style={styles.price}>SYNOPSIS</Text>
             <Text style={styles.description}>
-                CHARLIE'S ANGELS merupakan film aksi yang disutradarai oleh Elizabeth Banks. Kristen Stewart, Naomi Scott, dan Ella Balinska bekerja untuk Charles Townsend sebuah badan keamanan dan investigasinya misterius yang telah berkembang dengan skala internasional. Para wanita paling cerdas, paling berani, dan paling terlatih, Menjadi satu team "Angels" yang dipandu oleh Bosley menjalankan suatu misi berat dan berbahaya di mana-mana.
+                Trinity Traveler merupakan film drama yang disutradarai Rizal Mantovani. Trinity menerbitkan buku 
+                pertamanya dan menjadi bestseller. Sekarang dia lebih dikenal sebagai TRINITY TRAVELER dan dapat 
+                beasiswa S2 di Filipina sambil tetap menjalani hobby traveling-nya. Bapak dan Ibu selalu mendesaknya 
+                segera menikah, karena menurut mereka dengan menikah Trinity akan lebih bahagia. Trinity kembali 
+                bertemu dengan Paul tapi menghadapi dilema antara mengejar cinta dan passion-nya.
             </Text>
             <Text style={styles.description}>
-                Dibintangi oleh Naomi Scott, Sam Claflin, Kristen Stewart. 
+                Dibintangi Maudy Ayunda, Hamish Daud, Rachel Amanda, Anggika Bolsterli, Babe Cabiita, Cut Mini, 
+                Farhan, Ayu Dewi, Dayu Wijanto, Melaney Ricardo.
             </Text>
           </View>
           
           <View style={styles.separator}></View>
           <View style={styles.addToCarContainer}>
-            <TouchableOpacity style={styles.shareButton} onPress={()=> {Linking.openURL('https://www.youtube.com/watch?v=voYLots_ZOg')}}>
+            <TouchableOpacity style={styles.shareButton} onPress={()=> {Linking.openURL('https://www.youtube.com/watch?v=JULU9daSUyw')}}>
               <Text style={styles.shareButtonText}>View Trailer</Text>  
             </TouchableOpacity>
           </View> 

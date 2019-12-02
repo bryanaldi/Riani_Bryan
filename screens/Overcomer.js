@@ -24,20 +24,28 @@ export default class ProductDetail extends Component {
       <View style={styles.container}>
         <ScrollView>
           <View style={{alignItems:'center', marginHorizontal:30}}>
-            <Image style={styles.productImg} source={{uri:"https://www.blackfilm.com/read/wp-content/uploads/2019/10/Charlie-s-Angels-cover.jpg"}}/>
-            <Text style={styles.name}>Charlie's Angels</Text>
+            <Image style={styles.productImg} source={{uri:"https://www.newreleasetoday.com/images/news_images/news_img_f_1565907116.jpg"}}/>
+            <Text style={styles.name}>Overcomer</Text>
             <Text style={styles.price}>SYNOPSIS</Text>
             <Text style={styles.description}>
-                CHARLIE'S ANGELS merupakan film aksi yang disutradarai oleh Elizabeth Banks. Kristen Stewart, Naomi Scott, dan Ella Balinska bekerja untuk Charles Townsend sebuah badan keamanan dan investigasinya misterius yang telah berkembang dengan skala internasional. Para wanita paling cerdas, paling berani, dan paling terlatih, Menjadi satu team "Angels" yang dipandu oleh Bosley menjalankan suatu misi berat dan berbahaya di mana-mana.
+                OVERCOMER merupakan film drama yang disutradarai oleh Alex Kendrick. Kehidupan pelatih John Harrison 
+                berubah seketika saat impian tim bola basket yang dilatihnya untuk melaju di kejuaraan negara bagian 
+                hancur berkeping-keping usai mendapat sebuah berita yang tak diharapkan. Ketika pabrik terbesar di 
+                kota tutup dan ratusan keluarga memutuskan pindah, John mempertanyakan bagaimana diri dan keluarganya 
+                dapat menghadapi masa depan tak pasti. Setelah bersedia melatih tim lari lintas alam, John dan istrinya, 
+                Amy bertemu dengan seorang atlet muda yang tengah berjuang habis-habisan supaya direkrut menjadi atlet 
+                profesional. Terdorong oleh perkataan dan doa-doa dari teman-teman barunya, John pun menjalani peran 
+                seorang pelatih bagi seorang pelari yang paling tak diperhitungkan demi melampaui rintangan terberat 
+                dalam perlombaan terbesar tahun ini.
             </Text>
             <Text style={styles.description}>
-                Dibintangi oleh Naomi Scott, Sam Claflin, Kristen Stewart. 
+                Dibintangi oleh Alex Kendrick, Priscilla Shirer, Aryn Wright - Thompson.
             </Text>
           </View>
           
           <View style={styles.separator}></View>
           <View style={styles.addToCarContainer}>
-            <TouchableOpacity style={styles.shareButton} onPress={()=> {Linking.openURL('https://www.youtube.com/watch?v=voYLots_ZOg')}}>
+            <TouchableOpacity style={styles.shareButton} onPress={()=> {Linking.openURL('https://www.youtube.com/watch?v=BGyieGVn4P4')}}>
               <Text style={styles.shareButtonText}>View Trailer</Text>  
             </TouchableOpacity>
           </View> 

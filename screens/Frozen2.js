@@ -5,10 +5,14 @@ import {
   View,
   TouchableOpacity,
   Image,
+<<<<<<< HEAD
+  ScrollView,
+=======
   Alert,
   ScrollView,
   FlatList,
   Button,
+>>>>>>> 7a6b392f29617568af3dc494608b1b6d859e53f9
 } from 'react-native';
 
 export default class ProductDetail extends Component {
@@ -37,8 +41,7 @@ export default class ProductDetail extends Component {
             </Text>
             <Text style={styles.description}>
                 Dibintangi Kristen Bell, Idina Menzel, Jonathan Groff, Jason Ritter, Evan Rachel Wood, Sterling K. 
-                Brown, Rachel Matthews, Josh Gad, Martha Plimpton, Santino Fontana, Alfred Molina. Beli tiket 
-                bioskop online kamu di BookMyShow. 
+                Brown, Rachel Matthews, Josh Gad, Martha Plimpton, Santino Fontana, Alfred Molina.
             </Text>
           </View>
           
@@ -123,7 +126,11 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     borderRadius:30,
+<<<<<<< HEAD
+    backgroundColor: "#0f0f0f",
+=======
     backgroundColor: "#00BFFF",
+>>>>>>> 7a6b392f29617568af3dc494608b1b6d859e53f9
   },
   shareButtonText:{
     color: "#FFFFFF",

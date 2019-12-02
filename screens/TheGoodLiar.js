@@ -24,20 +24,23 @@ export default class ProductDetail extends Component {
       <View style={styles.container}>
         <ScrollView>
           <View style={{alignItems:'center', marginHorizontal:30}}>
-            <Image style={styles.productImg} source={{uri:"https://www.blackfilm.com/read/wp-content/uploads/2019/10/Charlie-s-Angels-cover.jpg"}}/>
-            <Text style={styles.name}>Charlie's Angels</Text>
+            <Image style={styles.productImg} source={{uri:"https://www.q-tickets.com/movie_images/THE_GOOD_LIAR_(ENGLISH)_banner.jpg?type=3"}}/>
+            <Text style={styles.name}>The Good Liar</Text>
             <Text style={styles.price}>SYNOPSIS</Text>
             <Text style={styles.description}>
-                CHARLIE'S ANGELS merupakan film aksi yang disutradarai oleh Elizabeth Banks. Kristen Stewart, Naomi Scott, dan Ella Balinska bekerja untuk Charles Townsend sebuah badan keamanan dan investigasinya misterius yang telah berkembang dengan skala internasional. Para wanita paling cerdas, paling berani, dan paling terlatih, Menjadi satu team "Angels" yang dipandu oleh Bosley menjalankan suatu misi berat dan berbahaya di mana-mana.
+                THE GOOD LIAR merupakan film drama yang disutradarai oleh Bill Condon. Penipu yang berpengalaman, 
+                Roy Courtnay, telah mengincar target terbarunya: Betty McLeish yang baru saja menjanda. Tapi kali 
+                ini, apa yang seharusnya menjadi tipuan sederhana berubah menjadi permainan yang rumit dengan 
+                mempertaruhkan sesuatu yang lebih besar.
             </Text>
             <Text style={styles.description}>
-                Dibintangi oleh Naomi Scott, Sam Claflin, Kristen Stewart. 
+               Dibintangi oleh Helen Mirren, Ian McKellen, Russell Tovey, Johannes Haukur Johannesson.
             </Text>
           </View>
           
           <View style={styles.separator}></View>
           <View style={styles.addToCarContainer}>
-            <TouchableOpacity style={styles.shareButton} onPress={()=> {Linking.openURL('https://www.youtube.com/watch?v=voYLots_ZOg')}}>
+            <TouchableOpacity style={styles.shareButton} onPress={()=> {Linking.openURL('https://www.youtube.com/watch?v=JL6qUca-4ow')}}>
               <Text style={styles.shareButtonText}>View Trailer</Text>  
             </TouchableOpacity>
           </View> 

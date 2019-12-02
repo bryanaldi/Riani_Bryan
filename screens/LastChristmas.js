@@ -24,20 +24,24 @@ export default class ProductDetail extends Component {
       <View style={styles.container}>
         <ScrollView>
           <View style={{alignItems:'center', marginHorizontal:30}}>
-            <Image style={styles.productImg} source={{uri:"https://www.blackfilm.com/read/wp-content/uploads/2019/10/Charlie-s-Angels-cover.jpg"}}/>
-            <Text style={styles.name}>Charlie's Angels</Text>
+            <Image style={styles.productImg} source={{uri:"https://d10u9ygjms7run.cloudfront.net/b3pf60x8dq025w2t52k3xt1zbw/1572371027417_1572000717559_LastChristmas.jpeg"}}/>
+            <Text style={styles.name}>Last Christmas</Text>
             <Text style={styles.price}>SYNOPSIS</Text>
             <Text style={styles.description}>
-                CHARLIE'S ANGELS merupakan film aksi yang disutradarai oleh Elizabeth Banks. Kristen Stewart, Naomi Scott, dan Ella Balinska bekerja untuk Charles Townsend sebuah badan keamanan dan investigasinya misterius yang telah berkembang dengan skala internasional. Para wanita paling cerdas, paling berani, dan paling terlatih, Menjadi satu team "Angels" yang dipandu oleh Bosley menjalankan suatu misi berat dan berbahaya di mana-mana.
+                Last Christmas merupakan film drama komedi yang disutradarai oleh Paul Feig. Kate adalah seorang wanita 
+                muda yang mengambil keputusan buruk. Kencan terakhirnya berakhir dengan bencana? Saat diterima di sebuah 
+                toko pernak-pernik natal dan berperan sebagai Peri ia bertemu dengan Tom , Hidupnya berubah lagi. Bagi 
+                Kate, sepertinya terlalu bagus untuk menjadi kenyataan.
             </Text>
             <Text style={styles.description}>
-                Dibintangi oleh Naomi Scott, Sam Claflin, Kristen Stewart. 
+                Dibintangi oleh Emilia Clarke, Henry Golding, Michelle Yeoh, Emma Thompson, Peter Serafinowicz, Patti 
+                LuPone, Rob Delaney, Ingrid Oliver, Margaret Clunie.
             </Text>
           </View>
           
           <View style={styles.separator}></View>
           <View style={styles.addToCarContainer}>
-            <TouchableOpacity style={styles.shareButton} onPress={()=> {Linking.openURL('https://www.youtube.com/watch?v=voYLots_ZOg')}}>
+            <TouchableOpacity style={styles.shareButton} onPress={()=> {Linking.openURL('https://www.youtube.com/watch?v=3jSD-8F5AzY')}}>
               <Text style={styles.shareButtonText}>View Trailer</Text>  
             </TouchableOpacity>
           </View> 
@@ -54,7 +58,7 @@ const styles = StyleSheet.create({
   },
   productImg:{
     width:400,
-    height:250,
+    height:150,
   },
   name:{
     fontSize:28,

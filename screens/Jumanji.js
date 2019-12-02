@@ -19,25 +19,30 @@ export default class ProductDetail extends Component {
     this.props.navigation.navigate(screenName)
   }
 
+
   render() {
     return (
       <View style={styles.container}>
         <ScrollView>
           <View style={{alignItems:'center', marginHorizontal:30}}>
-            <Image style={styles.productImg} source={{uri:"https://www.blackfilm.com/read/wp-content/uploads/2019/10/Charlie-s-Angels-cover.jpg"}}/>
-            <Text style={styles.name}>Charlie's Angels</Text>
+            <Image style={styles.productImg} source={{uri:"http://www.sonypictures.in/Assets/sonypictures.in/india-sept-2019/Carousel_jumanji.jpg"}}/>
+            <Text style={styles.name}>Jumanji: The Next Level</Text>
             <Text style={styles.price}>SYNOPSIS</Text>
             <Text style={styles.description}>
-                CHARLIE'S ANGELS merupakan film aksi yang disutradarai oleh Elizabeth Banks. Kristen Stewart, Naomi Scott, dan Ella Balinska bekerja untuk Charles Townsend sebuah badan keamanan dan investigasinya misterius yang telah berkembang dengan skala internasional. Para wanita paling cerdas, paling berani, dan paling terlatih, Menjadi satu team "Angels" yang dipandu oleh Bosley menjalankan suatu misi berat dan berbahaya di mana-mana.
+              Jumanji: The Next Level merupakan film petualangan komedi yang disutradarai oleh Jake Kasdan. Dwayne 
+              Johnson, Karen Gillan, Jack Black dan Kevin Hart kembali ke Jumanji, keempatnya harus menyelamatkan 
+              salah satu teman mereka. Namun permainan telah berubah. Para pemain kini harus lebih berani melintasi 
+              rintangan ekstrem dan kembali dengan selamat dari permainan paling berbahaya di dunia.
             </Text>
             <Text style={styles.description}>
-                Dibintangi oleh Naomi Scott, Sam Claflin, Kristen Stewart. 
+              Dibintangi oleh Dwayne Johnson, Karen Gillan, Jack Black, Kevin Hart, Nick Jonas, Danny DeVito, Danny 
+              Glover, Madison Iseman, Alex Wolff, Colin Hanks, Dania Ramirez, Awkwafina
             </Text>
           </View>
           
           <View style={styles.separator}></View>
           <View style={styles.addToCarContainer}>
-            <TouchableOpacity style={styles.shareButton} onPress={()=> {Linking.openURL('https://www.youtube.com/watch?v=voYLots_ZOg')}}>
+            <TouchableOpacity style={styles.shareButton} onPress={()=> {Linking.openURL('https://www.youtube.com/watch?v=rBxcF-r9Ibs')}}>
               <Text style={styles.shareButtonText}>View Trailer</Text>  
             </TouchableOpacity>
           </View> 

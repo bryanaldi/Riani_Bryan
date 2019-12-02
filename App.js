@@ -9,6 +9,7 @@ import RumahKentang from './screens/RumahKentang';
 import TheGoodLiar from './screens/TheGoodLiar';
 import TrinityTraveler from './screens/TrinityTraveler';
 import LastChristmas from './screens/LastChristmas';
+import Bond25 from './screens/Bond25';
 import HomeScreen from './screens/HomeScreen';
 import TesScreen from './screens/TesScreen';
 
@@ -17,6 +18,7 @@ import TesScreen from './screens/TesScreen';
 import {createStackNavigator, createAppContainer} from 'react-navigation';
 
 const navigator = createStackNavigator({
+  // Home: HomeScreen 
   Home: TesScreen,
   Frozen2: Frozen2,
   FrozenTrailer: FrozenTrailer,
@@ -26,11 +28,13 @@ const navigator = createStackNavigator({
   RumahKentang: RumahKentang,
   TheGoodLiar: TheGoodLiar,
   TrinityTraveler: TrinityTraveler,
-  LastChristmas: LastChristmas
+  LastChristmas: LastChristmas,
+  Bond25: Bond25
+
 },{
   initialRouteName: 'Home',
   defaultNavigationOptions:{
-    headerTitle: 'Multiplatform App'
+    headerTitle: 'Trailist'
   }
 });
 

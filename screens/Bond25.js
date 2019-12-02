@@ -6,11 +6,7 @@ import {
   TouchableOpacity,
   Image,
   ScrollView,
-  Alert,
-  ScrollView,
-  FlatList,
-  Button,
-
+  Linking,
 } from 'react-native';
 
 export default class ProductDetail extends Component {
@@ -28,24 +24,20 @@ export default class ProductDetail extends Component {
       <View style={styles.container}>
         <ScrollView>
           <View style={{alignItems:'center', marginHorizontal:30}}>
-            <Image style={styles.productImg} source={{uri:"https://images.perthnow.com.au/publication/C-558635/6d230d36e110af6b661e0640f31def6bafdb96d6-16x9-x0y0w1920h1080.jpg"}}/>
-            <Text style={styles.name}>Frozen 2</Text>
+            <Image style={styles.productImg} source={{uri:"https://www.blackfilm.com/read/wp-content/uploads/2019/10/Charlie-s-Angels-cover.jpg"}}/>
+            <Text style={styles.name}>Bond 25</Text>
             <Text style={styles.price}>SYNOPSIS</Text>
             <Text style={styles.description}>
-                Frozen 2 merupakan film animasi yang disutradarai oleh Chris Buck, Jennifer Lee. Anna, Elsa,
-                Kristoff, Olaf dan Sven pergi meninggalkan Arendelle untuk melakukan perjalanan ke sebuah 
-                tempat asing dan penuh keajaiban. Mereka berangkat untuk menemukan asal usul kekuatan Elsa 
-                dan juga untuk menyelamatkan kerajaan mereka.
+                Bond 25 adalah film keren
             </Text>
             <Text style={styles.description}>
-                Dibintangi Kristen Bell, Idina Menzel, Jonathan Groff, Jason Ritter, Evan Rachel Wood, Sterling K. 
-                Brown, Rachel Matthews, Josh Gad, Martha Plimpton, Santino Fontana, Alfred Molina.
+                Dibintangi oleh Naomi Scott, Sam Claflin, Kristen Stewart. 
             </Text>
           </View>
           
           <View style={styles.separator}></View>
           <View style={styles.addToCarContainer}>
-            <TouchableOpacity style={styles.shareButton} onPress={()=> {this.cardClickEventListener('FrozenTrailer')}}>
+            <TouchableOpacity style={styles.shareButton} onPress={()=> {Linking.openURL('https://youtu.be/PRLPvm2re1Y')}}>
               <Text style={styles.shareButtonText}>View Trailer</Text>  
             </TouchableOpacity>
           </View> 
@@ -124,7 +116,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     borderRadius:30,
-    backgroundColor: "#0f0f0f"
+    backgroundColor: "#0f0f0f",
   },
   shareButtonText:{
     color: "#FFFFFF",

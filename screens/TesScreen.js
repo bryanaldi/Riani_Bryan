@@ -166,11 +166,7 @@ const styles = StyleSheet.create({
     padding:10,
     borderRadius:40,
     marginHorizontal:3,
-<<<<<<< HEAD
     backgroundColor: "#dbc0bd",
-=======
-    backgroundColor: "#eee",
->>>>>>> 7a6b392f29617568af3dc494608b1b6d859e53f9
-    marginTop:5,
+    marginTop:5
   },
-});   
+}); 

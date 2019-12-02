@@ -11,6 +11,10 @@ import {
 
 export default class ProductDetail extends Component {
 
+  static navigationOptions = {
+    header: null
+};
+
   constructor(props) {
     super(props);
   }
@@ -24,14 +28,17 @@ export default class ProductDetail extends Component {
       <View style={styles.container}>
         <ScrollView>
           <View style={{alignItems:'center', marginHorizontal:30}}>
-            <Image style={styles.productImg} source={{uri:"https://www.blackfilm.com/read/wp-content/uploads/2019/10/Charlie-s-Angels-cover.jpg"}}/>
-            <Text style={styles.name}>Bond 25</Text>
+            <Image style={styles.productImg} source={{uri:"https://i.ytimg.com/vi/xLRqnMZKGXk/maxresdefault.jpg"}}/>
+            <Text style={styles.name}>No Time to Die</Text>
             <Text style={styles.price}>SYNOPSIS</Text>
             <Text style={styles.description}>
-                Bond 25 adalah film keren
+            Rating : 5 Reviewer : 5433
             </Text>
             <Text style={styles.description}>
-                Dibintangi oleh Naomi Scott, Sam Claflin, Kristen Stewart. 
+            Bond telah meninggalkan layanan aktif. Kedamaiannya berumur pendek ketika teman lamanya Felix Leiter dari CIA muncul meminta bantuan, memimpin Bond ke jejak penjahat misterius yang dipersenjatai dengan teknologi baru yang berbahaya.
+            </Text>
+            <Text style={styles.description}>
+                Dibintangi oleh Ana de Armas, Daniel Craig, Léa Seydoux.
             </Text>
           </View>
           

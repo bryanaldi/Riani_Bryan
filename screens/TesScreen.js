@@ -13,6 +13,10 @@ import {
 
 export default class TesScreen extends Component {
 
+  static navigationOptions = {
+    header: null
+};
+
   constructor(props) {
     super(props);
     this.state = {
@@ -26,7 +30,7 @@ export default class TesScreen extends Component {
         {id:6, color:"#a10f05", info:'TheGoodLiar', icon:require('../assets/theGoodLiar.jpg'), name: "The Good Liar", tags:['Thriller']}, 
         {id:7, color:"#a10f05", info:'TrinityTraveler', icon:require('../assets/trinityTraveler.jpg'), name: "Trinity Traveler", tags:['Drama']},
         {id:8, color:"#a10f05", info:'LastChristmas', icon:require('../assets/lastChristmas.jpg'), name: "Last Christmas", tags:['Comedy', 'Drama', 'Romance']},
-        {id:9, color:"#a10f05", info:'Bond25', icon:require('../assets/bond25.jpg'), name: "Bond25", tags:['Comedy', 'Drama', 'Romance']},
+        {id:9, color:"#a10f05", info:'Bond25', icon:require('../assets/bond25.jpg'), name: "No Time to Die", tags:['Action', 'Adventure', 'Thriller']},
 
  
       ],

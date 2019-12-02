@@ -7,13 +7,16 @@ import {
   Image,
   ScrollView,
   Alert,
-  ScrollView,
   FlatList,
   Button,
 
 } from 'react-native';
 
 export default class ProductDetail extends Component {
+
+  static navigationOptions = {
+    header: null
+};
 
   constructor(props) {
     super(props);

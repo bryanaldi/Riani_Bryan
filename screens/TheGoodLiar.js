@@ -11,6 +11,9 @@ import {
 
 export default class ProductDetail extends Component {
 
+  static navigationOptions = {
+    header: null
+};
   constructor(props) {
     super(props);
   }

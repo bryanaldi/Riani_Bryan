@@ -32,7 +32,7 @@ export default class ProductDetail extends Component {
             <Text style={styles.name}>No Time to Die</Text>
             <Text style={styles.price}>SYNOPSIS</Text>
             <Text style={styles.description}>
-            Rating : 5 Reviewer : 5433
+            {/* Rating : 5 Reviewer : 5433 */}
             </Text>
             <Text style={styles.description}>
             Bond telah meninggalkan layanan aktif. Kedamaiannya berumur pendek ketika teman lamanya Felix Leiter dari CIA muncul meminta bantuan, memimpin Bond ke jejak penjahat misterius yang dipersenjatai dengan teknologi baru yang berbahaya.

@@ -9,6 +9,7 @@ import {
   Alert,
   FlatList,
   Button,
+  Linking
 
 } from 'react-native';
 
@@ -48,7 +49,7 @@ export default class ProductDetail extends Component {
           
           <View style={styles.separator}></View>
           <View style={styles.addToCarContainer}>
-            <TouchableOpacity style={styles.shareButton} onPress={()=> {this.cardClickEventListener('FrozenTrailer')}}>
+          <TouchableOpacity style={styles.shareButton} onPress={()=> {Linking.openURL('https://www.youtube.com/watch?v=bwzLiQZDw2I&t=25s')}}>
               <Text style={styles.shareButtonText}>View Trailer</Text>  
             </TouchableOpacity>
           </View> 
